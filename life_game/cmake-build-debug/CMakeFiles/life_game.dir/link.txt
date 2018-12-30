@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -std=c++17 -Wall -Wextra -g   CMakeFiles/life_game.dir/main.cpp.o CMakeFiles/life_game.dir/grid.cpp.o CMakeFiles/life_game.dir/master.cpp.o CMakeFiles/life_game.dir/slave.cpp.o  -o life_game -pthread 

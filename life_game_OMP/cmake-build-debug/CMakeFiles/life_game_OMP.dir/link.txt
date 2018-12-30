@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -std=c++17 -Wall -Wextra -fopenmp -lrt -g   CMakeFiles/life_game_OMP.dir/main.cpp.o CMakeFiles/life_game_OMP.dir/grid.cpp.o CMakeFiles/life_game_OMP.dir/master.cpp.o  -o life_game_OMP -pthread 

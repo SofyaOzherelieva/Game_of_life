@@ -1,0 +1,12 @@
+START 100 100 11
+
+START glider.csv 10
+
+RUN 50
+
+RUN 50
+
+STATUS
+
+QUIT
+

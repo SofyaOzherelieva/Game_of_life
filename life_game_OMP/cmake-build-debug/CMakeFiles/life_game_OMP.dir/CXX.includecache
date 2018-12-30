@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/grid.cpp
+grid.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/grid.h
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/grid.h
+cassert
+-
+fstream
+-
+iostream
+-
+vector
+-
+stuff.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/stuff.h
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/main.cpp
+master.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/master.h
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/master.cpp
+master.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/master.h
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/master.h
+cassert
+-
+vector
+-
+omp.h
+-
+stuff.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/stuff.h
+grid.h
+/home/sofya/Homework/councurrent_comp/life_game_OMP/grid.h
+
+/home/sofya/Homework/councurrent_comp/life_game_OMP/stuff.h
+

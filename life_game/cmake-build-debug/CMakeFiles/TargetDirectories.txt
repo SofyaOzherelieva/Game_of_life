@@ -1,0 +1,3 @@
+/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir

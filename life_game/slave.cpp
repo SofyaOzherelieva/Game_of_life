@@ -12,36 +12,28 @@ void change_grid(
   }
 }
 
+
 static void run_slave(
   Matrix &next_grid, Matrix &grid,
   CyclicBarrier &barrier,
   size_t first_row, size_t last_row,
   std::mutex &mutex, std::condition_variable &cv) {
 
-  bool should_stop = false;
+  while (slaves_is_running_) {
+    while (grid.get_iter() < target_epoch) {
 
-  while (!should_stop) {
-    {
-      std::unique_lock<std::mutex> un_l(mutex);
-      cv.wait(un_l, [] { return !force_halt; });
-    }
+      size_t curr_iter = next_grid.get_iter();
+      change_grid(grid, next_grid, first_row, last_row);
+      barrier.pass_through();
 
-    size_t curr_iter = next_grid.get_iter();
-    change_grid(grid, next_grid, first_row, last_row);
-    barrier.pass_through();
+      mutex.lock();
 
-    mutex.lock();
-
-    next_grid.set_iter(curr_iter + 1);
-    if (grid.get_iter() < next_grid.get_iter()) {
-      grid = next_grid;
-      if (grid.get_iter() == target_epoch) {
-        force_halt = true;
+      next_grid.set_iter(curr_iter + 1);
+      if (grid.get_iter() < next_grid.get_iter()) {
+        grid = next_grid;
       }
+      mutex.unlock();
     }
-
-    should_stop = force_halt;
-    mutex.unlock();
   }
 }
 

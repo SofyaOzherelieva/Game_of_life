@@ -43,10 +43,10 @@ RM = /home/sofya/Apps/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofya/Homework/councurrent_comp/life_game
+CMAKE_SOURCE_DIR = /home/sofya/Homework/councurrent_comp/Game_of_life/life_game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/life_game.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/life_game.dir/flags.make
 
 CMakeFiles/life_game.dir/main.cpp.o: CMakeFiles/life_game.dir/flags.make
 CMakeFiles/life_game.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/life_game.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/main.cpp.o -c /home/sofya/Homework/councurrent_comp/life_game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/life_game.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/main.cpp.o -c /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp
 
 CMakeFiles/life_game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/life_game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/life_game/main.cpp > CMakeFiles/life_game.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp > CMakeFiles/life_game.dir/main.cpp.i
 
 CMakeFiles/life_game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/life_game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/life_game/main.cpp -o CMakeFiles/life_game.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp -o CMakeFiles/life_game.dir/main.cpp.s
 
 CMakeFiles/life_game.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/life_game.dir/main.cpp.o.provides.build: CMakeFiles/life_game.dir/mai
 
 CMakeFiles/life_game.dir/grid.cpp.o: CMakeFiles/life_game.dir/flags.make
 CMakeFiles/life_game.dir/grid.cpp.o: ../grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/life_game.dir/grid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/grid.cpp.o -c /home/sofya/Homework/councurrent_comp/life_game/grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/life_game.dir/grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/grid.cpp.o -c /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp
 
 CMakeFiles/life_game.dir/grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/life_game.dir/grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/life_game/grid.cpp > CMakeFiles/life_game.dir/grid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp > CMakeFiles/life_game.dir/grid.cpp.i
 
 CMakeFiles/life_game.dir/grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/life_game.dir/grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/life_game/grid.cpp -o CMakeFiles/life_game.dir/grid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp -o CMakeFiles/life_game.dir/grid.cpp.s
 
 CMakeFiles/life_game.dir/grid.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/life_game.dir/grid.cpp.o.provides.build: CMakeFiles/life_game.dir/gri
 
 CMakeFiles/life_game.dir/master.cpp.o: CMakeFiles/life_game.dir/flags.make
 CMakeFiles/life_game.dir/master.cpp.o: ../master.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/life_game.dir/master.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/master.cpp.o -c /home/sofya/Homework/councurrent_comp/life_game/master.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/life_game.dir/master.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/master.cpp.o -c /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp
 
 CMakeFiles/life_game.dir/master.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/life_game.dir/master.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/life_game/master.cpp > CMakeFiles/life_game.dir/master.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp > CMakeFiles/life_game.dir/master.cpp.i
 
 CMakeFiles/life_game.dir/master.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/life_game.dir/master.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/life_game/master.cpp -o CMakeFiles/life_game.dir/master.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp -o CMakeFiles/life_game.dir/master.cpp.s
 
 CMakeFiles/life_game.dir/master.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/life_game.dir/master.cpp.o.provides.build: CMakeFiles/life_game.dir/m
 
 CMakeFiles/life_game.dir/slave.cpp.o: CMakeFiles/life_game.dir/flags.make
 CMakeFiles/life_game.dir/slave.cpp.o: ../slave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/life_game.dir/slave.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/slave.cpp.o -c /home/sofya/Homework/councurrent_comp/life_game/slave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/life_game.dir/slave.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/life_game.dir/slave.cpp.o -c /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp
 
 CMakeFiles/life_game.dir/slave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/life_game.dir/slave.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/life_game/slave.cpp > CMakeFiles/life_game.dir/slave.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp > CMakeFiles/life_game.dir/slave.cpp.i
 
 CMakeFiles/life_game.dir/slave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/life_game.dir/slave.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/life_game/slave.cpp -o CMakeFiles/life_game.dir/slave.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp -o CMakeFiles/life_game.dir/slave.cpp.s
 
 CMakeFiles/life_game.dir/slave.cpp.o.requires:
 
@@ -169,7 +169,7 @@ life_game: CMakeFiles/life_game.dir/master.cpp.o
 life_game: CMakeFiles/life_game.dir/slave.cpp.o
 life_game: CMakeFiles/life_game.dir/build.make
 life_game: CMakeFiles/life_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable life_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable life_game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/life_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/life_game.dir/clean:
 .PHONY : CMakeFiles/life_game.dir/clean
 
 CMakeFiles/life_game.dir/depend:
-	cd /home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofya/Homework/councurrent_comp/life_game /home/sofya/Homework/councurrent_comp/life_game /home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug /home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug /home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofya/Homework/councurrent_comp/Game_of_life/life_game /home/sofya/Homework/councurrent_comp/Game_of_life/life_game /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug /home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles/life_game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/life_game.dir/depend
 

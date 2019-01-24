@@ -1,4 +1,4 @@
-# Install script for directory: /home/sofya/Homework/councurrent_comp/life_game
+# Install script for directory: /home/sofya/Homework/councurrent_comp/Game_of_life/life_game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

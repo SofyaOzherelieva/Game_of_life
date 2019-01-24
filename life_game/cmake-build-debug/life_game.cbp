@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug"/>
+				<Option working_dir="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug"/>
+				<Option working_dir="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug"/>
+				<Option working_dir="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="life_game">
-				<Option output="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/life_game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug"/>
+				<Option output="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/life_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 life_game"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 life_game"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="life_game/fast">
-				<Option output="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/life_game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug"/>
+				<Option output="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/life_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,41 +77,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 life_game/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 life_game/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/barrier.h">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/barrier.h">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/grid.cpp">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/grid.h">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.h">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/main.cpp">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/master.cpp">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/master.h">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.h">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/slave.cpp">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/slave.h">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.h">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/stuff.h">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/stuff.h">
 			<Option target="life_game"/>
 		</Unit>
-		<Unit filename="/home/sofya/Homework/councurrent_comp/life_game/CMakeLists.txt">
+		<Unit filename="/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

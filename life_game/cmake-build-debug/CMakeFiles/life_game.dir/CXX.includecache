@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/sofya/Homework/councurrent_comp/life_game/barrier.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/barrier.h
 condition_variable
 -
 mutex
 -
 
-/home/sofya/Homework/councurrent_comp/life_game/grid.cpp
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp
 grid.h
-/home/sofya/Homework/councurrent_comp/life_game/grid.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.h
 
-/home/sofya/Homework/councurrent_comp/life_game/grid.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.h
 cassert
 -
 fstream
@@ -26,17 +26,17 @@ iostream
 vector
 -
 stuff.h
-/home/sofya/Homework/councurrent_comp/life_game/stuff.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/stuff.h
 
-/home/sofya/Homework/councurrent_comp/life_game/main.cpp
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp
 master.h
-/home/sofya/Homework/councurrent_comp/life_game/master.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.h
 
-/home/sofya/Homework/councurrent_comp/life_game/master.cpp
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp
 master.h
-/home/sofya/Homework/councurrent_comp/life_game/master.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.h
 
-/home/sofya/Homework/councurrent_comp/life_game/master.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.h
 cassert
 -
 mutex
@@ -46,29 +46,29 @@ thread
 vector
 -
 barrier.h
-/home/sofya/Homework/councurrent_comp/life_game/barrier.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/barrier.h
 stuff.h
-/home/sofya/Homework/councurrent_comp/life_game/stuff.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/stuff.h
 grid.h
-/home/sofya/Homework/councurrent_comp/life_game/grid.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.h
 slave.h
-/home/sofya/Homework/councurrent_comp/life_game/slave.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.h
 
-/home/sofya/Homework/councurrent_comp/life_game/slave.cpp
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp
 slave.h
-/home/sofya/Homework/councurrent_comp/life_game/slave.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.h
 
-/home/sofya/Homework/councurrent_comp/life_game/slave.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.h
 mutex
 -
 thread
 -
 barrier.h
-/home/sofya/Homework/councurrent_comp/life_game/barrier.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/barrier.h
 stuff.h
-/home/sofya/Homework/councurrent_comp/life_game/stuff.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/stuff.h
 grid.h
-/home/sofya/Homework/councurrent_comp/life_game/grid.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.h
 
-/home/sofya/Homework/councurrent_comp/life_game/stuff.h
+/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/stuff.h
 

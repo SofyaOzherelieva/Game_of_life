@@ -1,7 +1,7 @@
 #include "master.h"
 
-size_t target_epoch = 0;
-bool   force_halt   = true;
+size_t target_epoch       = 0;
+bool   slaves_is_running_ = true;
 
 
 bool is_number(const std::string &s) {
@@ -38,6 +38,16 @@ void Master::communicate() {
   init_slaves(num_threads);
   is_running_ = true;
 
+  /////////////////////////////////////
+
+  slaves_is_running_ = true;
+
+  for (auto &slave_thread: slaves_) {
+    slave_thread.run();
+  }
+
+  /////////////////////////////////////
+
   std::cout << "Available commands: 'STATUS', 'RUN', 'STOP', 'QUIT'\n";
   while (is_running_) {
     std::cin >> command;
@@ -58,18 +68,20 @@ void Master::communicate() {
   }
 }
 
+
 void Master::slaves_stop() {
-  for (auto &slave_thread: slaves_) {
-    slave_thread.join();
+  std::unique_lock<std::mutex> lock(mutex_);
+  if (grid_.get_iter() < target_epoch) {
+    target_epoch = grid_.get_iter() + 1;
   }
 }
 
 void Master::premature_slaves_stop() {
-  {
-    std::unique_lock<std::mutex> lock(mutex_);
-    target_epoch = grid_.get_iter() + 1;
-  }
   slaves_stop();
+  slaves_is_running_ = false;
+  for (auto &slave_thread: slaves_) {
+    slave_thread.join();
+  }
 }
 
 void Master::init_slaves(size_t num_threads) {
@@ -96,30 +108,20 @@ void Master::init_slaves(size_t num_threads) {
 
 
 void Master::status() {
-  slaves_stop();
   std::lock_guard<std::mutex> lock(mutex_);
+  std::cout << "Current iteration: " << grid_.get_iter() << "\n";
   grid_.print_game();
 }
 
 
-
 void Master::run(size_t n) {
   mutex_.lock();
-  bool needs_restart = force_halt;
-  force_halt = false;
   target_epoch += n;
   mutex_.unlock();
-
-  if (needs_restart) {
-    for (auto &slave_thread: slaves_) {
-      slave_thread.run();
-    }
-  }
-  cv_.notify_all();
 }
 
 void Master::stop() {
-  premature_slaves_stop();
+  slaves_stop();
   std::cout << "Current iteration: " << target_epoch << "\n";
 }
 

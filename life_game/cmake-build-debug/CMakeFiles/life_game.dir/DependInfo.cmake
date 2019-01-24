@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sofya/Homework/councurrent_comp/life_game/grid.cpp" "/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir/grid.cpp.o"
-  "/home/sofya/Homework/councurrent_comp/life_game/main.cpp" "/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir/main.cpp.o"
-  "/home/sofya/Homework/councurrent_comp/life_game/master.cpp" "/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir/master.cpp.o"
-  "/home/sofya/Homework/councurrent_comp/life_game/slave.cpp" "/home/sofya/Homework/councurrent_comp/life_game/cmake-build-debug/CMakeFiles/life_game.dir/slave.cpp.o"
+  "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/grid.cpp" "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles/life_game.dir/grid.cpp.o"
+  "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/main.cpp" "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles/life_game.dir/main.cpp.o"
+  "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/master.cpp" "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles/life_game.dir/master.cpp.o"
+  "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/slave.cpp" "/home/sofya/Homework/councurrent_comp/Game_of_life/life_game/cmake-build-debug/CMakeFiles/life_game.dir/slave.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

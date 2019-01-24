@@ -70,7 +70,7 @@ void Master::communicate() {
 
 
 void Master::slaves_stop() {
-  std::unique_lock<std::mutex> lock(mutex_);
+  std::lock_guard<std::mutex> lock(mutex_);
   if (grid_.get_iter() < target_epoch) {
     target_epoch = grid_.get_iter() + 1;
   }
@@ -79,6 +79,7 @@ void Master::slaves_stop() {
 void Master::premature_slaves_stop() {
   slaves_stop();
   slaves_is_running_ = false;
+  cv_.notify_all();
   for (auto &slave_thread: slaves_) {
     slave_thread.join();
   }
@@ -118,6 +119,7 @@ void Master::run(size_t n) {
   mutex_.lock();
   target_epoch += n;
   mutex_.unlock();
+  cv_.notify_all();
 }
 
 void Master::stop() {

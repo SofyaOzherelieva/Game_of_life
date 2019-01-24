@@ -20,20 +20,23 @@ static void run_slave(
   std::mutex &mutex, std::condition_variable &cv) {
 
   while (slaves_is_running_) {
-    while (grid.get_iter() < target_epoch) {
-
-      size_t curr_iter = next_grid.get_iter();
-      change_grid(grid, next_grid, first_row, last_row);
-      barrier.pass_through();
-
-      mutex.lock();
-
-      next_grid.set_iter(curr_iter + 1);
-      if (grid.get_iter() < next_grid.get_iter()) {
-        grid = next_grid;
-      }
-      mutex.unlock();
+    {
+      std::unique_lock<std::mutex> lock(mutex);
+      cv.wait(lock, [&grid] { return (grid.get_iter() < target_epoch) || !slaves_is_running_; });
     }
+
+    size_t curr_iter = next_grid.get_iter();
+    change_grid(grid, next_grid, first_row, last_row);
+    barrier.pass_through();
+
+    mutex.lock();
+
+    next_grid.set_iter(curr_iter + 1);
+    if (grid.get_iter() < next_grid.get_iter()) {
+      grid = next_grid;
+    }
+
+    mutex.unlock();
   }
 }
 
@@ -43,7 +46,7 @@ Slave::Slave(size_t first_row,
              CyclicBarrier &barrier,
              Matrix &grid,
              Matrix &next_grid,
-             std::mutex &grid_lock, std::condition_variable& cv)
+             std::mutex &grid_lock, std::condition_variable &cv)
   : first_row_(first_row), last_row_(last_row),
     barrier_(barrier),
     grid_(grid), next_grid_(next_grid),

@@ -8,5 +8,11 @@ RUN 50
 
 STATUS
 
+RUN 10
+
+STOP
+
+STATUS
+
 QUIT
 
